@@ -1,0 +1,36 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment (if using one)
+venv/
+.venv/
+
+# Ignore environment configuration files
+.env
+*.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore generated images (but keep the folder)
+generated_images/
+!generated_images/.gitkeep
+
+# Ignore dependency files that shouldn't be committed
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db

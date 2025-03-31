@@ -1,0 +1,11 @@
+grpcio==1.63.2
+grpcio-tools==1.63.2
+param==2.2.0
+pillow==11.1.0
+protobuf==5.29.4
+PyAudio==0.2.14
+python-dotenv==1.1.0
+setuptools==78.1.0
+SpeechRecognition==3.14.2
+stability-sdk==0.8.6
+typing_extensions==4.13.0
