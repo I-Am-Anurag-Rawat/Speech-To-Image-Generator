@@ -7,7 +7,7 @@ import uuid
 class ImageGenerator:
     def __init__(self):
         # Set your Stability API key here
-        self.api_key = "sk-163fexQzoBkNCi45sNyjMG3KhSyXhT3wt7KHEbBJWoTeISa4"  # Replace with your actual key
+        self.api_key = "Replace with your actual stability.ai api_key"  # Replace with your actual key
         self.stability_api = client.StabilityInference(
             key=self.api_key,
             verbose=True
